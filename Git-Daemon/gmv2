@@ -64,6 +64,7 @@ _banner_(){
 """
 }
 _(){
+  _banner_
    while true;do
      case $1 in
        -o | --op)
