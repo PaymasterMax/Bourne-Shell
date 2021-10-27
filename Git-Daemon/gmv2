@@ -5,6 +5,7 @@ declare -a TERMSIZE=( $(stty size) )
 declare DIRECTORY;
 declare COMIT_MSG
 declare BRANCH
+declare ssh_conf
 declare FORCE
 declare OPER
 
@@ -35,8 +36,11 @@ _help(){
   -d --directory directory to push.
   -b --branch branch to carry operations on."
 }
-
+_setup_ssh(){
+  ssh-add ${ssh_conf:-'~/.ssh/github'}
+}
 _exec_ops(){
+  _setup_ssh
   cd ${DIRECTORY:-.}
   if [[ $OPER=="push" ]]; then
       git add --all
