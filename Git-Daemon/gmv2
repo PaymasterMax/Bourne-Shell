@@ -1,23 +1,49 @@
 #!/usr/bin/env bash
 # set -x;
+DISP=1
+OPER=""
+FORCE=""
+
 _net_(){
   ping "google.com" -c 2 1>/dev/null 2>&1;
+  net_status=$?
+  if [[ $net_status -ne 0 ]]; then
+    sleep 2
+    if [[ $DISP -ne 0 ]]; then
+      DISP=0
+      echo -en "\E[1;31m You are offline 😖 PS:(\E[m\n \E[1;33m Waiting for internet connection to come back ... 🤢🤢 \E[m";
+    fi
+    _net_
+  else
+          echo -e "\E[5;35m \E[1m you are Online PS 👍 :)\E[m \E[m";
+  fi
   return $?
 }
-
+_push(){
+  echo ""
+}
 
 _(){
-  echo -ne "\033[1;33m Checking your connection \033[m"
+  # check internet connectivity
+  echo -ne "\033[1;33m Checking your connection...👀 \033[m"
    _net_
-   net_status=$?
-   if [[ $net_status ]]; then
-     sleep 2
-     echo -ne "You are offline. Connect to the internet to continue"
-   fi
-  while [[ $net_status -ne 0 ]]; do
-    _net_
-    net_status=$?
-  done
+   while true;do
+     case $1 in
+       -o | --op )
+         OPER=$2;shift 2;
+         ;;
+       -f | --force )
+       FORCE="--force";shift;
+         ;;
+       -h | --help )
+         echo -e "Usage:
+$0 [ARGS]
+         "
+         shift;
+         ;;
+         *) break;
+     esac
 
+   done
 }
-_
+_ $@
