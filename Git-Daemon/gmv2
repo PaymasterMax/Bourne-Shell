@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # set -x;
 DISP=1
-OPER=""
-FORCE=""
-
+declare OPER
+declare FORCE
+declare BRANCH
+declare DIRECTORY;
 _net_(){
   ping "google.com" -c 2 1>/dev/null 2>&1;
   net_status=$?
@@ -19,14 +20,13 @@ _net_(){
   fi
   return $?
 }
-_push(){
-  echo ""
+_exec_ops(){
+  # check internet connectivity
+  echo -ne "\033[1;33m Checking your connection...👀 \033[m"
+  _net_
 }
 
 _(){
-  # check internet connectivity
-  echo -ne "\033[1;33m Checking your connection...👀 \033[m"
-   _net_
    while true;do
      case $1 in
        -o | --op )
@@ -35,15 +35,28 @@ _(){
        -f | --force )
        FORCE="--force";shift;
          ;;
+         -b | --branch )
+         BRANCH=$2;shift 2;
+           ;;
+         -d | --directory )
+         DIRECTORY=$2;shift 2;
+           ;;
        -h | --help )
          echo -e "Usage:
 $0 [ARGS]
-         "
-         shift;
-         ;;
-         *) break;
-     esac
 
+ARGS:
+-h --help get help menu.
+-o --op opration to perform.
+-f --force force the operation.
+-d --directory directory to push.
+-b --branch branch to carry operations on."
+         exit 0;
+         ;;
+         *) exit 0;
+     esac
    done
+
+   _exec_ops
 }
 _ $@
