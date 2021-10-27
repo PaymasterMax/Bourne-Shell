@@ -37,7 +37,7 @@ _help(){
   -b --branch branch to carry operations on."
 }
 _setup_ssh(){
-  ssh-add ${ssh_conf:-'~/.ssh/github'}
+  ssh-add ${ssh_conf:-$(eval 'ls ~/.ssh/github')}
 }
 _exec_ops(){
   _setup_ssh
