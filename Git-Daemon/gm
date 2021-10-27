@@ -36,8 +36,8 @@ function Diag() {
 	    return 0
 	    ;;
     *)
-    	clear;	    
-    	echo -e "\E[1;31m Invalid option. Please try again.\E[m"	    
+    	clear;
+    	echo -e "\E[1;31m Invalid option. Please try again.\E[m"
 	    Diag
       ;;
   esac
