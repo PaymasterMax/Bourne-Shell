@@ -34,7 +34,8 @@ _help(){
   -o --op opration to perform.
   -f --force force the operation.
   -d --directory directory to push.
-  -b --branch branch to carry operations on."
+  -b --branch branch to carry operations on.
+  -m --msg commit message."
 }
 _setup_ssh(){
   ssh-add ${ssh_conf:-$(eval 'ls ~/.ssh/github')}
