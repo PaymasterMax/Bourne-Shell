@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# set -x;
+_net_(){
+  ping "google.com" -c 2 1>/dev/null 2>&1;
+  return $?
+}
+
+
+_(){
+   _net_
+   net_status=$?
+   if [[ $net_status ]]; then
+     echo -ne "You are offline. Connect to the internet to continue"
+   fi
+  while [[ $net_status -ne 0 ]]; do
+    _net_
+    net_status=$?
+  done
+
+}
+_
