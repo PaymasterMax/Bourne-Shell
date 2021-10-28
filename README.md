@@ -1,5 +1,6 @@
 # 🐚 Bourne - scripts
-This project is organized into folders 📂. With each folder
+# 📁 
+This project is organized into folders . With each folder
 containing bash scripts that handle specific task given.
 All scripts will be listed down below with their corresponding <br> functionality and their case.
 
