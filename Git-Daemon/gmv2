@@ -80,7 +80,7 @@ _counter(){
           echo -n " "
         done
         for (( x = 0; x < 20; x++ )); do
-          echo -ne "\u2197" && sleep .02
+          echo -ne "0" && sleep .02
         done
         echo -ne "\r"
   done
