@@ -41,19 +41,20 @@ _setup_ssh(){
   ssh-add ${ssh_conf:-$(eval 'ls ~/.ssh/github')} >/dev/null 2>&1
 }
 _exec_ops(){
-  echo "Morph $1"
   _setup_ssh
   cd ${DIRECTORY:-.}
   if [[ $OPER=="push" ]]; then
-      git add --all
-      git commit -m ${COMIT_MSG:-"patch auto-gen by ${0:0} under account $USER"}
+      git add --all  > /dev/null 2>&1
+      git commit -m ${COMIT_MSG:-"patch auto-gen by ${0:0} under account $USER"}  > /dev/null 2>&1
   fi
   # check internet connectivity
-  echo -ne "\033[1;33m Checking your connection...👀 \033[m"
+  echo -ne "\033[1;33m Checking your connection...👀 \033[m"  > /dev/null 2>&1
   _net_
-  echo -ne "\E[1;34m Script is ${OPER}ing updates --- 💭 \E[m";
-  echo -e "\n"
-  git $OPER origin ${BRANCH:-"main"}
+  echo -ne "\E[1;34m Script is ${OPER}ing updates --- 💭 \E[m"  > /dev/null 2>&1;
+  echo -e "\n"  > /dev/null 2>&1
+  git $OPER origin ${BRANCH:-"main"} > /dev/null 2>&1
+
+  kill -9 $1
 }
 _banner_(){
   echo ""
