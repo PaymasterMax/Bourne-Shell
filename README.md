@@ -10,7 +10,7 @@ All scripts will be listed down below with their corresponding <br> functionalit
  like pushing and pulling updates to local repository. <br>
    - The script also allows you, the user to add custom commit messages, if you don't provide, the script <br>
  will add a crafted commit message just right out of the box. So you as a developer can push changes quickly <br>
- first thing after installing is typing `gitwrap -h`
+ - First thing after installing is typing `gitwrap -h`
 to see it's usage <br>
  Installation instructions.<br>
  ```$ git clone <clone-url>;<br>
