@@ -26,5 +26,4 @@ $ gitwrap -h
 Command to use now is `gitwrap [args]`
 usage infor will be displayed.
 
-All Unicode characters can be found here. <a href="https://unicode-table.com/en/" target="_blank">Unicode Characters</a>
-[Unicode characters url](https://unicode-table.com/en/){:target="_blank"}
+All Unicode characters can be found here. [Unicode Characters](https://unicode-table.com/en/)
