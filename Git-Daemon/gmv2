@@ -75,7 +75,7 @@ _counter(){
         for (( i = 0; i < 20; i++ )); do
           echo -ne "▂" && sleep .002
         done
-        echo -n "📁"
+        echo -ne "\033[1;31m📁\033[m"
         echo -ne "\r" &&  for (( i = 0; i < $space_width; i++ )); do
           echo -n " "
         done
