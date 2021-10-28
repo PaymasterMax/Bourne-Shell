@@ -59,13 +59,17 @@ _banner_(){
 }
 
 _counter(){
-  for (( i = 0; i < ${TERMSIZE[1]}-10; i++ )); do
-    echo -ne "-" && sleep .002
+  while true;do
+    # echo ""
+        for (( i = 0; i < ${TERMSIZE[1]}-40; i++ )); do
+          echo -ne "▂" && sleep .002
+        done
+        echo -ne "\r"
+        for (( i = 0; i < ${TERMSIZE[1]}-10; i++ )); do
+          echo -n " " && sleep .02
+        done
+        echo ""
   done
-  for (( i = 0; i < ${TERMSIZE[1]}-10; i++ )); do
-    printf "\r\r\r\r" && sleep .02
-  done
-  echo ""
 }
 _(){
   _banner_
@@ -96,6 +100,6 @@ _(){
    if [[ ! -z ${OPER} ]]; then
      _exec_ops
    fi
-   # _counter
+   _counter
 }
 _ $@
