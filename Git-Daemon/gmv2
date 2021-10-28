@@ -83,9 +83,9 @@ _counter(){
         for (( x = 0; x < 20; x++ )); do
           echo -ne "$curr" && sleep .02
           if [[ $curr -eq 0 ]]; then
-            curr=$(( $curr = 1))
+            curr=$(( $curr=1))
           else
-            curr=$(( $curr = 1))
+            curr=$(( $curr=1))
           fi
         done
         echo -ne "\r"
