@@ -57,7 +57,7 @@ _exec_ops(){
     #statements
     echo "Morph"
   fi
-  
+  kill -9 $1
 }
 _banner_(){
   echo ""
