@@ -75,7 +75,7 @@ _counter(){
         for (( i = 0; i < 20; i++ )); do
           echo -ne "▂" && sleep .002
         done
-        echo -ne "\u1F4C1"
+        echo -n "📁"
         echo -ne "\r" &&  for (( i = 0; i < $space_width; i++ )); do
           echo -n " "
         done
