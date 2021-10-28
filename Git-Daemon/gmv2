@@ -120,7 +120,7 @@ _(){
    if [[ ! -z ${OPER} ]]; then
      _exec_ops >/dev/null 2>1 &
        count=$!
-     _counter 2>/dev/null
+     # _counter 2>/dev/null
    fi
 }
 _cleaner(){
