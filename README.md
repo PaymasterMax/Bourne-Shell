@@ -2,7 +2,9 @@
 This project is organized into folders 📂. With each folder
 containing bash scripts that handle specific task given.
 All scripts will be listed down below with their corresponding <br> functionality and their case.
+
 ![](https://media.giphy.com/media/zaUTLcbjhWpTrNYoFG/giphy.gif)
+
 1. `Gid-Daemon`
  This guy is a GitHub Cli wrapper that makes your day as a developer, friendly <br>
  What does it do! you may ask, well the script provides the basic functionality of git <br>
@@ -12,12 +14,12 @@ All scripts will be listed down below with their corresponding <br> functionalit
  first thing after installing is typing `gm -h`
 to see it's usage <br>
  Installation instructions.<br>
- `$ git clone <clone-url>;
-$ cd Dir_name;
-$ cd Git-Daemon;
-$ sudo chmod +x ./gmv2
-$ sudo ln -s $(pwd)/gmv2 /usr/local/bin/;
-$ sudo ln -s /usr/local/sbin/gitwrap /usr/local/bin/gmv2;
+ `$ git clone <clone-url>;<br>
+$ cd Dir_name;<br>
+$ cd Git-Daemon;<br>
+$ sudo chmod +x ./gmv2<br>
+$ sudo ln -s $(pwd)/gmv2 /usr/local/bin/;<br>
+$ sudo ln -s /usr/local/sbin/gitwrap /usr/local/bin/gmv2;<br>
 $ gitwrap -h`
 
 🙌 You have your script on standby ready to execute<br>
