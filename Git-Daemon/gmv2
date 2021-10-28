@@ -111,7 +111,7 @@ _(){
    done
 
    if [[ ! -z ${OPER} ]]; then
-     _counter >/dev/null &
+     _counter 2>/dev/null &
      _exec_ops
    fi
 }
