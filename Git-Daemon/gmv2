@@ -118,8 +118,7 @@ _(){
    fi
 }
 _cleaner(){
-  echo "killing"
-  kill -9 $count
+  return 0
 }
 trap _cleaner SIGINT
 _ $@
