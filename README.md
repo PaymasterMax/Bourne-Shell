@@ -13,17 +13,15 @@ All scripts will be listed down below with their corresponding <br> functionalit
  first thing after installing is typing `gm -h`
 to see it's usage <br>
  Installation instructions.<br>
- `$ git clone <clone-url>;<br>
+ ```$ git clone <clone-url>;<br>
 $ cd Dir_name;
 
 $ cd Git-Daemon;
 
 $ sudo chmod +x ./gmv2
 $ sudo ln -s $(pwd)/gmv2 /usr/local/bin/;
-
 $ sudo ln -s /usr/local/sbin/gitwrap /usr/local/bin/gmv2;
-
-$ gitwrap -h`
+$ gitwrap -h```
 
 🙌 You have your script on standby ready to execute<br>
 Command to use now is `gitwrap [args]`
