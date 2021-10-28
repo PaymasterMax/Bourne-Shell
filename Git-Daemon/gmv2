@@ -124,7 +124,7 @@ _(){
    fi
 }
 _cleaner(){
-  kill -9 $0
+  killall -9 $0
   return 0
 }
 trap _cleaner SIGINT
