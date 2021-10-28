@@ -15,9 +15,7 @@ to see it's usage <br>
  Installation instructions.<br>
  ```$ git clone <clone-url>;<br>
 $ cd Dir_name;
-
 $ cd Git-Daemon;
-
 $ sudo chmod +x ./gmv2
 $ sudo ln -s $(pwd)/gmv2 /usr/local/bin/;
 $ sudo ln -s /usr/local/sbin/gitwrap /usr/local/bin/gmv2;
