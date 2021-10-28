@@ -10,7 +10,7 @@ _terminator(){
   echo -ne "\u274C"
 }
 _help(){
-  echo -e " \033[1;34m You must run the command as sudo or root use sudo \n sudo $0 or login as root\033[m"
+  echo -e " \033[1;34m You must run the command as root or use sudo \n sudo $(echo $0 | awk '{ printf $NF }' ) or login as root\033[m"
 }
 _check_perm(){
     if [[ ${EUID} -ne 0 ]]; then
@@ -62,7 +62,7 @@ _(){
 
 
     _auth0r="@\u1CE1Morph 💀\u2020\u2122"
-    
+
     text_length=${#_auth0r}
     for (( i = 0; i < $(( $(( ${termSize[1]} - $text_length  )) / 2 )); i++ )); do
       echo -ne " "
