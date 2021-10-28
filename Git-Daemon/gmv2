@@ -127,8 +127,7 @@ _(){
    fi
 }
 _cleaner(){
-  echo $($0 | awk '{ printf "$0" }')
-  killall -9 $0
+  # killall -9 $0
   return 0
 }
 trap _cleaner SIGINT
