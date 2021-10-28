@@ -41,6 +41,7 @@ _setup_ssh(){
   ssh-add ${ssh_conf:-$(eval 'ls ~/.ssh/github')} >/dev/null 2>&1
 }
 _exec_ops(){
+  echo "Morph $@"
   _setup_ssh
   cd ${DIRECTORY:-.}
   if [[ $OPER=="push" ]]; then
@@ -120,7 +121,7 @@ _(){
    if [[ ! -z ${OPER} ]]; then
      # _exec_ops
      #   count=$!
-     _counter & _exec_ops
+     _counter & _exec_ops $!
      # _counter 2>/dev/null
    fi
 }
