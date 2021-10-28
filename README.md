@@ -1,9 +1,8 @@
-# Coming Soon! `README.`
-# Bourne Shell, bash - scripts
+# 🐚 Bourne - scripts
 This project is organized into folders 📂. With each folder
 containing bash scripts that handle specific task given.
 All scripts will be listed down below with their corresponding <br> functionality and their case.
-![]("https://media.giphy.com/media/zaUTLcbjhWpTrNYoFG/giphy.gif")
+![](https://media.giphy.com/media/zaUTLcbjhWpTrNYoFG/giphy.gif)
 1. `Gid-Daemon`
  This guy is a GitHub Cli wrapper that makes your day as a developer, friendly <br>
  What does it do! you may ask, well the script provides the basic functionality of git <br>
