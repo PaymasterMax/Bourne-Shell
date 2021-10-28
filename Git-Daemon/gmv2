@@ -59,16 +59,29 @@ _banner_(){
 }
 
 _counter(){
+    declare -a colors=("\033[1;34m" "\033[1;36m")
+      banner_text="\033[1;31mOperation \033[m: \033[1;34m${OPER}ing\033[m"
+      space_width=$(( $(( ${TERMSIZE[1]} - 20 )) / 2 ))
+      text_space=$(( $(( ${TERMSIZE[1]} - ${#banner_text} )) / 2 ))
+      for (( i = 0; i < $space_width; i++ )); do
+        echo -n " "
+      done
+      echo -e "$banner_text"
   while true;do
-    # echo ""
-        for (( i = 0; i < ${TERMSIZE[1]}-40; i++ )); do
+    for (( i = 0; i < $space_width; i++ )); do
+      echo -n " "
+    done
+    echo -n ""
+        for (( i = 0; i < 20; i++ )); do
           echo -ne "▂" && sleep .002
         done
-        echo -ne "\r"
-        for (( i = 0; i < ${TERMSIZE[1]}-10; i++ )); do
-          echo -n " " && sleep .02
+        echo -ne "\r" &&  for (( i = 0; i < $space_width; i++ )); do
+          echo -n " "
         done
-        echo ""
+        for (( x = 0; x < 20; x++ )); do
+          echo -ne "\u2197" && sleep .02
+        done
+        echo -ne "\r"
   done
 }
 _(){
@@ -98,8 +111,8 @@ _(){
    done
 
    if [[ ! -z ${OPER} ]]; then
+     _counter >/dev/null &
      _exec_ops
    fi
-   _counter
 }
 _ $@
