@@ -19,7 +19,8 @@ $ cd Git-Daemon;
 $ sudo chmod +x ./gmv2
 $ sudo ln -s $(pwd)/gmv2 /usr/local/bin/;
 $ sudo ln -s /usr/local/sbin/gitwrap /usr/local/bin/gmv2;
-$ gitwrap -h```
+$ gitwrap -h
+```
 
 🙌 You have your script on standby ready to execute<br>
 Command to use now is `gitwrap [args]`
