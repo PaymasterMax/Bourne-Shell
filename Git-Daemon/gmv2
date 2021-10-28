@@ -94,7 +94,7 @@ _counter(){
   done
 }
 _(){
-  _banner_
+  _banner_ && clear;
    while true;do
      case $1 in
        -o | --op)
