@@ -50,7 +50,7 @@ _exec_ops(){
   if [[ $OPER=="push" ]]; then
       git add --all  > /dev/null 2>&1
       git commit -m ${COMIT_MSG:-"patch auto-gen by ${0:0} under account $USER"}  > /dev/null 2>&1
-      if [[ $? -ne 0 ]]; then
+      if [[ $? -ne 1 || $? -ne 0 ]]; then
         kill -9 $1 >/dev/null 2>&1
         echo "Error encountered while commiting"
       fi
