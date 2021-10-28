@@ -28,4 +28,3 @@ Command to use now is `gitwrap [args]`
 usage infor will be displayed.
 
 All Unicode characters can be found here. [Unicode Characters](https://unicode-table.com/en/)
-N
