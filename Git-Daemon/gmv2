@@ -81,7 +81,7 @@ _counter(){
         done
         local curr=0
         for (( x = 0; x < 20; x++ )); do
-          echo -ne "$curr" && sleep .02
+          echo -ne "\033[1;31m$curr\033[m" && sleep .02
           if [[ $curr -eq 0 ]]; then
             curr=1
           else
