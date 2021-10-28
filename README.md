@@ -14,11 +14,15 @@ All scripts will be listed down below with their corresponding <br> functionalit
 to see it's usage <br>
  Installation instructions.<br>
  `$ git clone <clone-url>;<br>
-$ cd Dir_name;<br>
-$ cd Git-Daemon;<br>
-$ sudo chmod +x ./gmv2<br>
-$ sudo ln -s $(pwd)/gmv2 /usr/local/bin/;<br>
-$ sudo ln -s /usr/local/sbin/gitwrap /usr/local/bin/gmv2;<br>
+$ cd Dir_name;
+
+$ cd Git-Daemon;
+
+$ sudo chmod +x ./gmv2
+$ sudo ln -s $(pwd)/gmv2 /usr/local/bin/;
+
+$ sudo ln -s /usr/local/sbin/gitwrap /usr/local/bin/gmv2;
+
 $ gitwrap -h`
 
 🙌 You have your script on standby ready to execute<br>
