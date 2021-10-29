@@ -61,10 +61,10 @@ _exec_ops(){
   echo -ne "\E[1;34m Script is ${OPER}ing updates --- 💭 \E[m"  > /dev/null 2>&1;
   echo -e "\n"  > /dev/null 2>&1
   git $OPER origin ${BRANCH:-"main"} > /dev/null 2>&1
-  if [[ $? -ne 0 ]]; then
-    kill -9 $1 >/dev/null 2>&1
-    echo -ne "\n\n\033[1;31mError encountered while pushing\033[m"
-  fi
+  # if [[ $? -ne 0 ]]; then
+  #   kill -9 $1 >/dev/null 2>&1
+  #   echo -ne "\n\n\033[1;31mError encountered while pushing\033[m"
+  # fi
   kill -9 $1 >/dev/null 2>&1
 }
 _banner_(){
