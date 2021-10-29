@@ -4,6 +4,8 @@ This project is organized into folders . With each folder
 containing bash scripts that handle specific task given.
 All scripts will be listed down below with their corresponding <br> functionality and their case.
 
+#### `It's Hero Time.` <br>
+
 ![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif)
 
 1. - `Git-Daemon` - This big guy is a GitHub-Cli wrapper that makes your day as a developer, easy <br>
@@ -44,7 +46,3 @@ $ sudo ln -s /usr/local/bin/ftp.sh /usr/local/sbin/cftp;
 $ cftp -h
 ```
 You can now go ahead to setup the cronjob. If you don't know how to use cronjobs feel free to checkout the link [CronJobs Unix](https://ostechnix.com/a-beginners-guide-to-cron-jobs/#:~:text=It%20is%20used%20to%20schedule,tasks%20and%20a%20lot%20more.)
-
-
-#### `It's Hero Time.` <br>
-![](https://media.giphy.com/media/zaUTLcbjhWpTrNYoFG/giphy.gif)
