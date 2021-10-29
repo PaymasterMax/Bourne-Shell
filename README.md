@@ -4,7 +4,7 @@ This project is organized into folders . With each folder
 containing bash scripts that handle specific task given.
 All scripts will be listed down below with their corresponding <br> functionality and their case.
 
-#### `It's Hero Time.` <br>
+#### `It's show Time.` <br>
 
 ![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif)
 
