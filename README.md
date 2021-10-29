@@ -27,7 +27,7 @@ $ gitwrap -h
 Command to use now is `gitwrap [args]`
 usage infor will be displayed.
 
-All Unicode characters can be found here. [Unicode Characters](https://unicode-table.com/en/)
+All Unicode characters can be found here. [Unicode Characters](https://unicode-table.com/en/) <br>
 2. - `FTP Server`
      - The ftp script located in the folder ftp is a auto upload backup script to remote ftp server <br>
      - The script can be setup with `cronjob` to automatically get scheduled for upload.
