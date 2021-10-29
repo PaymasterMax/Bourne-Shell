@@ -1,0 +1,2 @@
+
+(totem:1981): Gtk-WARNING **: 22:40:44.621: Drawing a gadget with negative dimensions. Did you forget to allocate a size? (node slider owner GtkScale)
