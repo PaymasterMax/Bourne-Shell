@@ -4,7 +4,7 @@ This project is organized into folders . With each folder
 containing bash scripts that handle specific task given.
 All scripts will be listed down below with their corresponding <br> functionality and their case.
 
-![](https://media.giphy.com/media/zaUTLcbjhWpTrNYoFG/giphy.gif)
+![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif)
 
 1. - `Git-Daemon` - This big guy is a GitHub-Cli wrapper that makes your day as a developer, easy <br>
  What does it do! you may ask, well the script provides the basic functionality of git <br>
@@ -46,4 +46,4 @@ You can now go ahead to setup the cronjob. If you don't know how to use cronjobs
 
 
 #### `It's Hero Time.` <br>
-![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif)
+![](https://media.giphy.com/media/zaUTLcbjhWpTrNYoFG/giphy.gif)
