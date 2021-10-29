@@ -44,7 +44,7 @@ _exec_ops(){
   _setup_ssh
   if [[ $? -ne 0 ]]; then
     kill -9 $1 >/dev/null 2>&1
-    echo -ne "\n\033[1;31mError encountered while setting up ssh\033[m"
+    echo -ne "\n\n\n\033[1;31mError encountered while setting up ssh\033[m"
   fi
   cd ${DIRECTORY:-.}
   if [[ $OPER=="push" ]]; then
