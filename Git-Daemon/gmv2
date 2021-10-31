@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
-set -x;
-# echo "Hello"
-# echo $( echo $0 | awk 'BEGIN{IFS="/"; printf NR}' )
+# set -x;
+
 DISP=1
 declare -a TERMSIZE=( $(stty size) )
 declare DIRECTORY;
@@ -51,7 +50,7 @@ _exec_ops(){
   cd ${DIRECTORY:-.}
   if [[ $OPER=="push" ]]; then
       git add --all  > /dev/null 2>&1
-      git commit -m ${COMIT_MSG:-"patch auto-gen by ${0:0} by $USER"}  > /dev/null 2>&1
+      git commit -m ${COMIT_MSG:-"patch auto-gen by $( echo $0 |  stdbuf -o 0 awk -F / '{printf $NF}') by $USER"}  > /dev/null 2>&1
       # if [[ $? -ne 1 || $? -ne 0 ]]; then
       #   kill -9 $1 >/dev/null 2>&1
       #   echo "Error encountered while commiting"
