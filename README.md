@@ -1,5 +1,5 @@
 # 🐚 Bourne - scripts
-# 📁 
+# 📁
 This project is organized into folders . With each folder
 containing bash scripts that handle specific task given.
 All scripts will be listed down below with their corresponding <br> functionality and their case.
@@ -13,6 +13,8 @@ All scripts will be listed down below with their corresponding <br> functionalit
  like pushing and pulling updates to local repository. <br>
    - The script also allows you, the user to add custom commit messages, if you don't provide, the script <br>
  will add a crafted commit message just right out of the box. So you as a developer can push changes quickly <br>
+ The script automates pull / push request  and optionally forcing updates <br> online or offline using the -f. <br>
+
  - First thing after installing is typing `gitwrap -h`
 to see it's usage <br>
  Installation instructions.<br>
@@ -27,6 +29,14 @@ $ gitwrap -h
 
 🙌 You have your script on standby ready to execute<br>
 Command to use now is `gitwrap [args]`
+Usage:
+  `gitwrap -o push / pull` -o specifies the operation to perform. <br>
+  `gitwrap -o push / pull -f` -f specifies to push or pull forcefully, <br>this overwrites changes at the end of the endpoint (either remote or local).<br>
+  `gitwrap -o push / pull -d `-d --directory directory to push. Defaults to the current directory.<br>
+ `gitwrap -o push / pull -b ` -b --branch branch to carry operations on. This defaults to main if not specified. <br>
+ `gitwrap -o push / pull -m ` -m --msg commit message. This has a default commit message.<br>
+
+
 usage infor will be displayed.
 
 All Unicode characters can be found here. [Unicode Characters](https://unicode-table.com/en/) <br>
