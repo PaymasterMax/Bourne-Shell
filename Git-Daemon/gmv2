@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # set -x;
-echo $( echo $0 | awk 'BEGIN{IFS="/"; printf $1 Duncan}' )
+# echo "Hello"
+# echo $( echo $0 | awk 'BEGIN{IFS="/"; printf NR}' )
 DISP=1
 declare -a TERMSIZE=( $(stty size) )
 declare DIRECTORY;
