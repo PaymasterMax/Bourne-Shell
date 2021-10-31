@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# set -x;
 
 DISP=1
 declare -a TERMSIZE=( $(stty size) )
