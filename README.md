@@ -32,9 +32,9 @@ Command to use now is `gitwrap [args]`<br><br>
 <strong>Usage</strong>:<br>
   `gitwrap -o push / pull` -o specifies the operation to perform. <br>
   `gitwrap -o push / pull -f` -f specifies to push or pull forcefully, this overwrites changes at the end of the endpoint (either remote or local).<br>
-  `gitwrap -o push / pull -d `-d --directory directory to push. Defaults to the current directory.<br>
- `gitwrap -o push / pull -b ` -b --branch branch to carry operations on. This defaults to main if not specified. <br>
- `gitwrap -o push / pull -m ` -m --msg commit message. This has a default commit message.<br>
+  `gitwrap -o push / pull -d ` -d --directory directory to push. Defaults to the current directory.<br>
+ `gitwrap -o push / pull -b `  -b --branch branch to carry operations on. This defaults to main if not specified. <br>
+ `gitwrap -o push / pull -m `  -m --msg commit message. This has a default commit message.<br>
 
 
 usage infor will be displayed.
