@@ -140,7 +140,7 @@ _(){
    fi
 }
 _cleaner(){
-  # killall -9 $0
+  killall -9 $( echo $0 |  stdbuf -o 0 awk -F / '{printf $NF}')
   return 0
 }
 trap _cleaner SIGINT
