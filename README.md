@@ -29,7 +29,7 @@ $ gitwrap -h
 
 🙌 You have your script on standby ready to execute<br>
 Command to use now is `gitwrap [args]`<br>
-Usage:<br>
+<strong>Usage</strong>:<br>
   `gitwrap -o push / pull` -o specifies the operation to perform. <br>
   `gitwrap -o push / pull -f` -f specifies to push or pull forcefully, <br>this overwrites changes at the end of the endpoint (either remote or local).<br>
   `gitwrap -o push / pull -d `-d --directory directory to push. Defaults to the current directory.<br>
