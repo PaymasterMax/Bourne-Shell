@@ -27,7 +27,7 @@ _net_(){
 
 _help(){
   echo -e "Usage:
-  $0 [ARGS]
+  $(echo $0 | awk -F / '{ printf $NF}' ) [ARGS]
 
   ARGS:
   -h --help get help menu.

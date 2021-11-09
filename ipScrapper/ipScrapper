@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+# set -x;
+#set -e;
+_finder(){
+  targer_url="http://ip-api.com/json/"
+  while read -r data;do
+    if ! $STORE_IN_FILE; then
+        echo -e "\033[4;34m\u1CE1 Server Ip -\033[m\E[1;31m $data\E[m"
+        curl -s $targer_url$data | awk  '{ gsub("\"|{|}"," ");gsub(",","\n");gsub(":","->"); printf $0 }' && echo -e "\n\n"
+    else
+      {
+        echo "Server Ip - $data"
+        curl -s $targer_url$data | awk  '{ gsub("\"|{|}"," ");gsub(",","\n");gsub(":","->"); printf $0 }' && echo -e "\n\n"
+      } | tee -a data.json
+    fi
+  done
+}
+
+_(){
+    while true;do
+
+    case $1 in
+      --save | -s )
+      STORE_IN_FILE=true;break
+        ;;
+        *)
+        break
+        ;;
+      esac
+    done
+    stdbuf -o 0 egrep -o '([0-9]{1,3}\.){3}[0-9]' |  _finder
+    echo -ne "\033[1;31m$_auth0r\[m"
+}
+
+trap "" SIGINT
+
+_auth0r="@\u1CE1Morph 💀\u2020\u2122"
+text_length=${#_auth0r}
+TERM_INFO=( $( stty size ) )
+STORE_IN_FILE=false
+
+
+_ $@
+
+# for(( x = 0; x < $(( $(( ${TERM_INFO[1]} / 2 )) ));x++));do
+#   echo -ne "."
+# done
