@@ -56,3 +56,32 @@ $ sudo ln -s /usr/local/bin/ftp.sh /usr/local/sbin/cftp;
 $ cftp -h
 ```
 You can now go ahead to setup the cronjob. If you don't know how to use cronjobs feel free to checkout the link [CronJobs Unix](https://ostechnix.com/a-beginners-guide-to-cron-jobs/#:~:text=It%20is%20used%20to%20schedule,tasks%20and%20a%20lot%20more.)
+
+3. - `Ip-Scrapper` <br>
+  - This script accepts text that has ip address inline with text or purely ip address
+  - The script gets to work as soon as information is just buffered on the pipe<br>
+  - It Searches through the piped information for IP information <br>
+  - It then fetches Ip information from [Ip to GeoInfor](http://ip-api.com/json/).
+  - The information returned is in json format, we then pass the information through to awk 🦅 Command
+  - The information is formated to the following structure.
+  `
+    status -> success<br>
+  country -> United States<br>
+  countryCode -> US<br>
+  region -> FL<br>
+  regionName -> Florida<br>
+  city -> Tampa<br>
+  zip -> 33614<br>
+  lat ->28.0109<br>
+  lon ->-82.4948<br>
+  timezone -> America/New_York<br>
+  isp -> HIVELOCITY<br>
+  Inc.<br>
+  org -> NOC4Hosts Inc<br>
+  as -> AS29802 HIVELOCITY<br>
+  Inc.<br>
+  query -> 96.31.83.1
+  `
+  - The command has an option argument `--save or -s` that tells the script whether to store the<br> information Scrapped or not.<br>
+  - Sample of running the program<br>
+  - `Some command that outputs text with ip | ipScrapper [ARGS]`

@@ -1,0 +1,680 @@
+Server Ip - 192.64.147.1
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> NY 
+ regionName -> New York 
+ city -> New York 
+ zip -> 10123 
+ lat ->40.7128
+ lon ->-74.006
+ timezone -> America/New_York 
+ isp -> Voodoo.com
+ Inc 
+ org -> Voodoo.com
+ Inc 
+ as -> AS19867 Voodoo.com
+ Inc 
+ query -> 192.64.147.1  
+
+
+Server Ip - 192.168.1.1
+  status -> fail 
+ message -> private range 
+ query -> 192.168.1.1  
+
+
+Server Ip - 192.168.1.1
+  status -> fail 
+ message -> private range 
+ query -> 192.168.1.1  
+
+
+Server Ip - 41.212.120.1
+  status -> success 
+ country -> Kenya 
+ countryCode -> KE 
+ region -> 30 
+ regionName -> Nairobi Province 
+ city -> Nairobi 
+ zip -> 09831 
+ lat ->-1.2841
+ lon ->36.8155
+ timezone -> Africa/Nairobi 
+ isp -> Wananchi Group (K) LTD 
+ org -> Wananchi Group 
+ as -> AS15399 Wananchi Group (Kenya) Limited 
+ query -> 41.212.120.1  
+
+
+Server Ip - 41.212.120.1
+  status -> success 
+ country -> Kenya 
+ countryCode -> KE 
+ region -> 30 
+ regionName -> Nairobi Province 
+ city -> Nairobi 
+ zip -> 09831 
+ lat ->-1.2841
+ lon ->36.8155
+ timezone -> Africa/Nairobi 
+ isp -> Wananchi Group (K) LTD 
+ org -> Wananchi Group 
+ as -> AS15399 Wananchi Group (Kenya) Limited 
+ query -> 41.212.120.1  
+
+
+Server Ip - 161.5.212.4
+  status -> success 
+ country -> Austria 
+ countryCode -> AT 
+ region -> 9 
+ regionName -> Vienna 
+ city -> Vienna 
+ zip -> 1220 
+ lat ->48.2356
+ lon ->16.4166
+ timezone -> Europe/Vienna 
+ isp -> International Atomic Energy Agency 
+ org -> IAEA-OR 
+ as -> AS12311 International Atomic Energy Agency 
+ query -> 161.5.212.4  
+
+
+Server Ip - 41.212.5.1
+  status -> success 
+ country -> Kenya 
+ countryCode -> KE 
+ region -> 28 
+ regionName -> Mombasa District 
+ city -> Mombasa 
+ zip ->  
+ lat ->-4.0489
+ lon ->39.6686
+ timezone -> Africa/Nairobi 
+ isp -> Wananchi Group (K) LTD 
+ org -> Wananchi Group 
+ as -> AS15399 Wananchi Group (Kenya) Limited 
+ query -> 41.212.5.1  
+
+
+Server Ip - 41.212.1.6
+  status -> success 
+ country -> Kenya 
+ countryCode -> KE 
+ region -> 28 
+ regionName -> Mombasa District 
+ city -> Mombasa 
+ zip ->  
+ lat ->-4.0489
+ lon ->39.6686
+ timezone -> Africa/Nairobi 
+ isp -> Wananchi Group (K) LTD 
+ org -> Wananchi Group 
+ as -> AS15399 Wananchi Group (Kenya) Limited 
+ query -> 41.212.1.6  
+
+
+Server Ip - 41.212.1.6
+  status -> success 
+ country -> Kenya 
+ countryCode -> KE 
+ region -> 28 
+ regionName -> Mombasa District 
+ city -> Mombasa 
+ zip ->  
+ lat ->-4.0489
+ lon ->39.6686
+ timezone -> Africa/Nairobi 
+ isp -> Wananchi Group (K) LTD 
+ org -> Wananchi Group 
+ as -> AS15399 Wananchi Group (Kenya) Limited 
+ query -> 41.212.1.6  
+
+
+Server Ip - 10.5.212.4
+  status -> fail 
+ message -> private range 
+ query -> 10.5.212.4  
+
+
+Server Ip - 41.212.5.1
+  status -> success 
+ country -> Kenya 
+ countryCode -> KE 
+ region -> 28 
+ regionName -> Mombasa District 
+ city -> Mombasa 
+ zip ->  
+ lat ->-4.0489
+ lon ->39.6686
+ timezone -> Africa/Nairobi 
+ isp -> Wananchi Group (K) LTD 
+ org -> Wananchi Group 
+ as -> AS15399 Wananchi Group (Kenya) Limited 
+ query -> 41.212.5.1  
+
+
+Server Ip - 223.119.38.1
+  status -> success 
+ country -> Hong Kong 
+ countryCode -> HK 
+ region -> NTW 
+ regionName -> Tsuen Wan District 
+ city -> Kwai Chung 
+ zip ->  
+ lat ->22.3616
+ lon ->114.133
+ timezone -> Asia/Hong_Kong 
+ isp -> China Mobile International Limited 
+ org -> cmi 
+ as -> AS58453 Level 30
+ Tower 1 
+ query -> 223.119.38.1  
+
+
+Server Ip - 223.119.38.1
+  status -> success 
+ country -> Hong Kong 
+ countryCode -> HK 
+ region -> NTW 
+ regionName -> Tsuen Wan District 
+ city -> Kwai Chung 
+ zip ->  
+ lat ->22.3616
+ lon ->114.133
+ timezone -> Asia/Hong_Kong 
+ isp -> China Mobile International Limited 
+ org -> cmi 
+ as -> AS58453 Level 30
+ Tower 1 
+ query -> 223.119.38.1  
+
+
+Server Ip - 223.118.21.1
+  status -> success 
+ country -> Hong Kong 
+ countryCode -> HK 
+ region -> NTW 
+ regionName -> Tsuen Wan District 
+ city -> Kwai Chung 
+ zip ->  
+ lat ->22.3616
+ lon ->114.133
+ timezone -> Asia/Hong_Kong 
+ isp -> China Mobile International Limited 
+ org -> China Mobile International Limited 
+ as -> AS58453 Level 30
+ Tower 1 
+ query -> 223.118.21.1  
+
+
+Server Ip - 223.118.21.1
+  status -> success 
+ country -> Hong Kong 
+ countryCode -> HK 
+ region -> NTW 
+ regionName -> Tsuen Wan District 
+ city -> Kwai Chung 
+ zip ->  
+ lat ->22.3616
+ lon ->114.133
+ timezone -> Asia/Hong_Kong 
+ isp -> China Mobile International Limited 
+ org -> China Mobile International Limited 
+ as -> AS58453 Level 30
+ Tower 1 
+ query -> 223.118.21.1  
+
+
+Server Ip - 223.118.21.1
+  status -> success 
+ country -> Hong Kong 
+ countryCode -> HK 
+ region -> NTW 
+ regionName -> Tsuen Wan District 
+ city -> Kwai Chung 
+ zip ->  
+ lat ->22.3616
+ lon ->114.133
+ timezone -> Asia/Hong_Kong 
+ isp -> China Mobile International Limited 
+ org -> China Mobile International Limited 
+ as -> AS58453 Level 30
+ Tower 1 
+ query -> 223.118.21.1  
+
+
+Server Ip - 223.118.21.1
+  status -> success 
+ country -> Hong Kong 
+ countryCode -> HK 
+ region -> NTW 
+ regionName -> Tsuen Wan District 
+ city -> Kwai Chung 
+ zip ->  
+ lat ->22.3616
+ lon ->114.133
+ timezone -> Asia/Hong_Kong 
+ isp -> China Mobile International Limited 
+ org -> China Mobile International Limited 
+ as -> AS58453 Level 30
+ Tower 1 
+ query -> 223.118.21.1  
+
+
+Server Ip - 223.120.10.8
+  status -> success 
+ country -> Hong Kong 
+ countryCode -> HK 
+ region -> NTW 
+ regionName -> Tsuen Wan District 
+ city -> Kwai Chung 
+ zip ->  
+ lat ->22.3616
+ lon ->114.133
+ timezone -> Asia/Hong_Kong 
+ isp -> China Mobile International Limited 
+ org -> China Mobile International Limited 
+ as -> AS58453 Level 30
+ Tower 1 
+ query -> 223.120.10.8  
+
+
+Server Ip - 223.120.10.8
+  status -> success 
+ country -> Hong Kong 
+ countryCode -> HK 
+ region -> NTW 
+ regionName -> Tsuen Wan District 
+ city -> Kwai Chung 
+ zip ->  
+ lat ->22.3616
+ lon ->114.133
+ timezone -> Asia/Hong_Kong 
+ isp -> China Mobile International Limited 
+ org -> China Mobile International Limited 
+ as -> AS58453 Level 30
+ Tower 1 
+ query -> 223.120.10.8  
+
+
+Server Ip - 149.29.9.1
+  status -> success 
+ country -> Germany 
+ countryCode -> DE 
+ region -> HE 
+ regionName -> Hesse 
+ city -> Frankfurt am Main 
+ zip -> 60313 
+ lat ->50.1109
+ lon ->8.68213
+ timezone -> Europe/Berlin 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 149.29.9.1  
+
+
+Server Ip - 154.25.12.6
+  status -> success 
+ country -> United Kingdom 
+ countryCode -> GB 
+ region -> ENG 
+ regionName -> England 
+ city -> London 
+ zip -> W1B 
+ lat ->51.5074
+ lon ->-0.127758
+ timezone -> Europe/London 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.25.12.6  
+
+
+Server Ip - 154.25.12.6
+  status -> success 
+ country -> United Kingdom 
+ countryCode -> GB 
+ region -> ENG 
+ regionName -> England 
+ city -> London 
+ zip -> W1B 
+ lat ->51.5074
+ lon ->-0.127758
+ timezone -> Europe/London 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.25.12.6  
+
+
+Server Ip - 130.117.1.1
+  status -> success 
+ country -> France 
+ countryCode -> FR 
+ region -> IDF 
+ regionName -> Île-de-France 
+ city -> Paris 
+ zip -> 75000 
+ lat ->48.8566
+ lon ->2.35222
+ timezone -> Europe/Paris 
+ isp -> Cogent Communications 
+ org -> PSINet
+ Inc. 
+ as -> AS174 Cogent Communications 
+ query -> 130.117.1.1  
+
+
+Server Ip - 130.117.0.1
+  status -> success 
+ country -> Germany 
+ countryCode -> DE 
+ region -> HE 
+ regionName -> Hesse 
+ city -> Frankfurt am Main 
+ zip -> 60313 
+ lat ->50.1109
+ lon ->8.68213
+ timezone -> Europe/Berlin 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 130.117.0.1  
+
+
+Server Ip - 130.117.48.1
+  status -> success 
+ country -> France 
+ countryCode -> FR 
+ region -> PAC 
+ regionName -> Provence-Alpes-Côte d'Azur 
+ city -> Nice 
+ zip -> 06000 
+ lat ->43.7102
+ lon ->7.26195
+ timezone -> Europe/Paris 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 130.117.48.1  
+
+
+Server Ip - 154.54.58.2
+  status -> success 
+ country -> Canada 
+ countryCode -> CA 
+ region -> ON 
+ regionName -> Ontario 
+ city -> Toronto 
+ zip -> M5H 
+ lat ->43.6532
+ lon ->-79.3832
+ timezone -> America/Toronto 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.58.2  
+
+
+Server Ip - 154.54.58.2
+  status -> success 
+ country -> Canada 
+ countryCode -> CA 
+ region -> ON 
+ regionName -> Ontario 
+ city -> Toronto 
+ zip -> M5H 
+ lat ->43.6532
+ lon ->-79.3832
+ timezone -> America/Toronto 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.58.2  
+
+
+Server Ip - 154.54.61.1
+  status -> success 
+ country -> Belgium 
+ countryCode -> BE 
+ region -> VLG 
+ regionName -> Flanders 
+ city -> Antwerp 
+ zip -> 2000 
+ lat ->51.2194
+ lon ->4.40246
+ timezone -> Europe/Brussels 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.61.1  
+
+
+Server Ip - 154.54.61.1
+  status -> success 
+ country -> Belgium 
+ countryCode -> BE 
+ region -> VLG 
+ regionName -> Flanders 
+ city -> Antwerp 
+ zip -> 2000 
+ lat ->51.2194
+ lon ->4.40246
+ timezone -> Europe/Brussels 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.61.1  
+
+
+Server Ip - 154.54.85.2
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> NC 
+ regionName -> North Carolina 
+ city -> Charlotte 
+ zip -> 28233 
+ lat ->35.2271
+ lon ->-80.8431
+ timezone -> America/New_York 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.85.2  
+
+
+Server Ip - 154.54.85.2
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> NC 
+ regionName -> North Carolina 
+ city -> Charlotte 
+ zip -> 28233 
+ lat ->35.2271
+ lon ->-80.8431
+ timezone -> America/New_York 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.85.2  
+
+
+Server Ip - 154.54.85.2
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> NC 
+ regionName -> North Carolina 
+ city -> Charlotte 
+ zip -> 28233 
+ lat ->35.2271
+ lon ->-80.8431
+ timezone -> America/New_York 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.85.2  
+
+
+Server Ip - 154.54.7.1
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> PA 
+ regionName -> Pennsylvania 
+ city -> Philadelphia 
+ zip -> 19099 
+ lat ->39.9526
+ lon ->-75.1652
+ timezone -> America/New_York 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.7.1  
+
+
+Server Ip - 154.54.24.2
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> TX 
+ regionName -> Texas 
+ city -> Dallas 
+ zip -> 75270 
+ lat ->32.7767
+ lon ->-96.797
+ timezone -> America/Chicago 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.24.2  
+
+
+Server Ip - 154.54.6.1
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> NY 
+ regionName -> New York 
+ city -> New York 
+ zip -> 10123 
+ lat ->40.7128
+ lon ->-74.006
+ timezone -> America/New_York 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.6.1  
+
+
+Server Ip - 154.54.6.1
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> NY 
+ regionName -> New York 
+ city -> New York 
+ zip -> 10123 
+ lat ->40.7128
+ lon ->-74.006
+ timezone -> America/New_York 
+ isp -> Cogent Communications 
+ org -> Cogent communications - IPENG 
+ as -> AS174 Cogent Communications 
+ query -> 154.54.6.1  
+
+
+Server Ip - 38.140.125.2
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> GA 
+ regionName -> Georgia 
+ city -> Atlanta 
+ zip -> 30303 
+ lat ->33.7555
+ lon ->-84.3915
+ timezone -> America/New_York 
+ isp -> Cogent Communications 
+ org -> West IP Communications Inc 
+ as -> AS174 Cogent Communications 
+ query -> 38.140.125.2  
+
+
+Server Ip - 38.140.125.2
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> GA 
+ regionName -> Georgia 
+ city -> Atlanta 
+ zip -> 30303 
+ lat ->33.7555
+ lon ->-84.3915
+ timezone -> America/New_York 
+ isp -> Cogent Communications 
+ org -> West IP Communications Inc 
+ as -> AS174 Cogent Communications 
+ query -> 38.140.125.2  
+
+
+Server Ip - 10.254.0.1
+  status -> fail 
+ message -> private range 
+ query -> 10.254.0.1  
+
+
+Server Ip - 10.254.0.1
+  status -> fail 
+ message -> private range 
+ query -> 10.254.0.1  
+
+
+Server Ip - 10.254.0.1
+  status -> fail 
+ message -> private range 
+ query -> 10.254.0.1  
+
+
+Server Ip - 10.254.0.1
+  status -> fail 
+ message -> private range 
+ query -> 10.254.0.1  
+
+
+Server Ip - 10.254.0.1
+  status -> fail 
+ message -> private range 
+ query -> 10.254.0.1  
+
+
+Server Ip - 10.254.0.1
+  status -> fail 
+ message -> private range 
+ query -> 10.254.0.1  
+
+
+Server Ip - 96.31.83.1
+  status -> success 
+ country -> United States 
+ countryCode -> US 
+ region -> FL 
+ regionName -> Florida 
+ city -> Tampa 
+ zip -> 33614 
+ lat ->28.0109
+ lon ->-82.4948
+ timezone -> America/New_York 
+ isp -> HIVELOCITY
+ Inc. 
+ org -> NOC4Hosts Inc 
+ as -> AS29802 HIVELOCITY
+ Inc. 
+ query -> 96.31.83.1  
+
+

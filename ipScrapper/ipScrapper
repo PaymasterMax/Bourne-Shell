@@ -11,7 +11,7 @@ _finder(){
       {
         echo "Server Ip - $data"
         curl -s $targer_url$data | awk  '{ gsub("\"|{|}"," ");gsub(",","\n");gsub(":","->"); printf $0 }' && echo -e "\n\n"
-      } | tee -a data.json
+      } | tee -a ${datafile:-data.txt}
     fi
   done
 }
@@ -21,7 +21,7 @@ _(){
 
     case $1 in
       --save | -s )
-      STORE_IN_FILE=true;break
+      STORE_IN_FILE=true;datafile=$2;break
         ;;
         *)
         break
@@ -38,6 +38,7 @@ _auth0r="@\u1CE1Morph 💀\u2020\u2122"
 text_length=${#_auth0r}
 TERM_INFO=( $( stty size ) )
 STORE_IN_FILE=false
+declare datafile;
 
 
 _ $@
