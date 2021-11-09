@@ -4,11 +4,12 @@ This project is organized into folders . With each folder
 containing bash scripts that handle specific task given.
 All scripts will be listed down below with their corresponding <br> functionality and their case.
 
-#### `It's show Time.` <br>
+<!-- #### `It's show Time.` <br> -->
 
-![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif)
+<!-- ![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif) -->
 
-# 3. - `Ip-Scrapper` <br>
+# 1. - `Ip-Scrapper` <br>
+  ![](https://media.giphy.com/media/nGMnDqebzDcfm/giphy.gif)
   - This script accepts text that has ip address inline with text or purely ip address
   - The script gets to work as soon as information is just buffered on the pipe<br>
   - It Searches through the piped information for IP information <br>
@@ -46,7 +47,7 @@ All scripts will be listed down below with their corresponding <br> functionalit
  $ sudo ln -s $(pwd)/target_file /usr/local/bin/target_file;
  $ sudo ln -s /usr/local/bin/target_file /usr/local/sbin/target_file;
  ```
- 
+
 # 2. - `Git-Daemon`
   - This big guy is a GitHub-Cli wrapper that makes your day as a developer, easy <br>
  What does it do! you may ask, well the script provides the basic functionality of git <br>
