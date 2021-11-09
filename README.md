@@ -64,7 +64,7 @@ You can now go ahead to setup the cronjob. If you don't know how to use cronjobs
   - It then fetches Ip information from [Ip to GeoInfor](http://ip-api.com/json/).
   - The information returned is in json format, we then pass the information through to awk 🦅 Command
   - The information is formated to the following structure.
-  `
+  ```
     status -> success<br>
   country -> United States<br>
   countryCode -> US<br>
@@ -81,7 +81,7 @@ You can now go ahead to setup the cronjob. If you don't know how to use cronjobs
   as -> AS29802 HIVELOCITY<br>
   Inc.<br>
   query -> 96.31.83.1
-  `
+  ```
   - The command has an option argument `--save or -s` that tells the script whether to store the<br> information Scrapped or not.<br>
   - Sample of running the program<br>
   - `Some command that outputs text with ip | ipScrapper [ARGS]`
