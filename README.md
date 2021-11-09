@@ -8,7 +8,8 @@ All scripts will be listed down below with their corresponding <br> functionalit
 
 ![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif)
 
-# 1. - `Git-Daemon` - This big guy is a GitHub-Cli wrapper that makes your day as a developer, easy <br>
+# 1. - `Git-Daemon`
+  - This big guy is a GitHub-Cli wrapper that makes your day as a developer, easy <br>
  What does it do! you may ask, well the script provides the basic functionality of git <br>
  like pushing and pulling updates to local repository. <br>
    - The script also allows you, the user to add custom commit messages, if you don't provide, the script <br>
