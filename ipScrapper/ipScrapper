@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# set -x;
-#set -e;
+# set -x; set -e; #DEBUG tools
 _finder(){
   targer_url="http://ip-api.com/json/"
   while read -r data;do
