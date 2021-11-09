@@ -8,7 +8,7 @@ All scripts will be listed down below with their corresponding <br> functionalit
 
 ![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif)
 
-1. - `Git-Daemon` - This big guy is a GitHub-Cli wrapper that makes your day as a developer, easy <br>
+# 1. - `Git-Daemon` - This big guy is a GitHub-Cli wrapper that makes your day as a developer, easy <br>
  What does it do! you may ask, well the script provides the basic functionality of git <br>
  like pushing and pulling updates to local repository. <br>
    - The script also allows you, the user to add custom commit messages, if you don't provide, the script <br>
@@ -41,7 +41,7 @@ usage infor will be displayed.
 
 All Unicode characters can be found here. [Unicode Characters](https://unicode-table.com/en/) <br>
 
-2. - `FTP Server`
+# 2. - `FTP Server`
      - The ftp script located in the folder ftp is a auto upload backup script to remote ftp server <br>
      - The script can be setup with `cronjob` to automatically get scheduled for upload.
      - The Remote server can be setup to accept connection and upload from your machine.
@@ -57,7 +57,7 @@ $ cftp -h
 ```
 You can now go ahead to setup the cronjob. If you don't know how to use cronjobs feel free to checkout the link [CronJobs Unix](https://ostechnix.com/a-beginners-guide-to-cron-jobs/#:~:text=It%20is%20used%20to%20schedule,tasks%20and%20a%20lot%20more.)
 
-3. - `Ip-Scrapper` <br>
+# 3. - `Ip-Scrapper` <br>
   - This script accepts text that has ip address inline with text or purely ip address
   - The script gets to work as soon as information is just buffered on the pipe<br>
   - It Searches through the piped information for IP information <br>
