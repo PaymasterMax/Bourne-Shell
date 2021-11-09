@@ -84,4 +84,14 @@ You can now go ahead to setup the cronjob. If you don't know how to use cronjobs
   ```
   - The command has an option argument `--save or -s` that tells the script whether to store the<br> information Scrapped or not.<br>
   - Sample of running the program<br>
-  - `Some command that outputs text with ip | ipScrapper [ARGS]`
+  - `Some command that outputs text with ip | ipScrapper [ARGS]`<br>
+
+  #### Installation instructions: <br>
+  ```$ git clone <clone-url>;<br>
+ $ cd Dir_name;
+ $ target_file=./ipScrapper
+ $ cd ipScrapper;
+ $ sudo chmod +x $target_file
+ $ sudo ln -s $(pwd)/target_file /usr/local/bin/target_file;
+ $ sudo ln -s /usr/local/bin/target_file /usr/local/sbin/target_file;
+ ```
