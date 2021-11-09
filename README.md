@@ -61,7 +61,7 @@ You can now go ahead to setup the cronjob. If you don't know how to use cronjobs
   - This script accepts text that has ip address inline with text or purely ip address
   - The script gets to work as soon as information is just buffered on the pipe<br>
   - It Searches through the piped information for IP information <br>
-  - It then fetches Ip information from [Ip to GeoInfor](http://ip-api.com/json/){:target="_blank"}.
+  - It then fetches Ip information from [Ip to GeoInfor](http://ip-api.com/json/).
   - The information returned is in json format, we then pass the information through to awk 🦅 Command
   - The information is formated to the following structure.
   ```
