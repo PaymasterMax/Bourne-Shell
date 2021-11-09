@@ -65,7 +65,7 @@ You can now go ahead to setup the cronjob. If you don't know how to use cronjobs
   - The information returned is in json format, we then pass the information through to awk 🦅 Command
   - The information is formated to the following structure.
   ```
-    status -> success<br>
+  status -> success<br>
   country -> United States<br>
   countryCode -> US<br>
   region -> FL<br>
