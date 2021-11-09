@@ -65,21 +65,21 @@ You can now go ahead to setup the cronjob. If you don't know how to use cronjobs
   - The information returned is in json format, we then pass the information through to awk 🦅 Command
   - The information is formated to the following structure.
   ```
-  status -> success<br>
-  country -> United States<br>
-  countryCode -> US<br>
-  region -> FL<br>
-  regionName -> Florida<br>
-  city -> Tampa<br>
-  zip -> 33614<br>
-  lat ->28.0109<br>
-  lon ->-82.4948<br>
-  timezone -> America/New_York<br>
-  isp -> HIVELOCITY<br>
-  Inc.<br>
-  org -> NOC4Hosts Inc<br>
-  as -> AS29802 HIVELOCITY<br>
-  Inc.<br>
+  status -> success
+  country -> United States
+  countryCode -> US
+  region -> FL
+  regionName -> Florida
+  city -> Tampa
+  zip -> 33614
+  lat ->28.0109
+  lon ->-82.4948
+  timezone -> America/New_York
+  isp -> HIVELOCITY
+  Inc.
+  org -> NOC4Hosts Inc
+  as -> AS29802 HIVELOCITY
+  Inc.
   query -> 96.31.83.1
   ```
   - The command has an option argument `--save or -s` that tells the script whether to store the<br> information Scrapped or not.<br>
