@@ -8,7 +8,7 @@ All scripts will be listed down below with their corresponding <br> functionalit
 
 <!-- ![](https://media.giphy.com/media/8zYunr3Hg8XPq/giphy.gif) -->
 
-# 1. - `Ip-Scrapper` <br>
+# 1. - `Ip-Scrapper ( IP Lookup )` <br>
   ![](https://media.giphy.com/media/xT8qBsOjMOcdeGJIU8/giphy.gif)
   - This script accepts text that has ip address inline with text or purely ip address
   - The script gets to work as soon as information is just buffered on the pipe<br>
