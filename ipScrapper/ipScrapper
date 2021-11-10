@@ -10,7 +10,7 @@ _finder(){
       {
         echo "Server Ip - $data"
         curl -s $targer_url$data | awk  '{ gsub("\"|{|}"," ");gsub(",","\n");gsub(":","->"); printf $0 "\n\n\n" }'
-      } | tee -a ${datafile:-data.txt}
+      } | tee -a ${datafile:-ipinfo.txt}
     fi
   done
 }
