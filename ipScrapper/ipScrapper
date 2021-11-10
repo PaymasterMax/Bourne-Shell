@@ -4,12 +4,12 @@ _finder(){
   targer_url="http://ip-api.com/json/"
   while read -r data;do
     if ! $STORE_IN_FILE; then
-        echo -e "\033[4;34m\u1CE1 Server Ip -\033[m\E[1;31m $data\E[m"
-        curl -s $targer_url$data | awk  '{ gsub("\"|{|}"," ");gsub(",","\n");gsub(":","->"); printf $0 }' && echo -e "\n\n"
+        echo -e "\033[4;34m\u1CE1 Server Ip - \033[m\E[1;31m $data\E[m"
+        curl -s $targer_url$data | awk  '{ gsub("\"|{|}"," ");gsub(",","\n");gsub(":","->"); printf $0 "\n\n\n" }'
     else
       {
         echo "Server Ip - $data"
-        curl -s $targer_url$data | awk  '{ gsub("\"|{|}"," ");gsub(",","\n");gsub(":","->"); printf $0 }' && echo -e "\n\n"
+        curl -s $targer_url$data | awk  '{ gsub("\"|{|}"," ");gsub(",","\n");gsub(":","->"); printf $0 "\n\n\n" }'
       } | tee -a ${datafile:-data.txt}
     fi
   done
@@ -33,7 +33,7 @@ _(){
 
 trap "" SIGINT
 
-_auth0r="@\u1CE1Morph 💀\u2020\u2122"
+_auth0r="Author @\u1CE1Morph 💀\u2020\u2122"
 text_length=${#_auth0r}
 TERM_INFO=( $( stty size ) )
 STORE_IN_FILE=false
